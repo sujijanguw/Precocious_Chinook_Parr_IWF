@@ -42,10 +42,10 @@
     sam_area <- read.csv("meta/sample_area_m2.csv", row.names = 1)
    
 # Acquires the sample metadata 
-  meta_raw <- read.csv("assembled/idaho_wild_fish_metadata_2026_02_06.csv")
+    meta_raw <- read.csv("assembled/idaho_wild_fish_metadata_2026_02_06.csv")
   
 # Acquires the assembled data
-  data_raw <- read.csv("assembled/idaho_wild_fish_tag_data_2026_02_06.csv")
+    data_raw <- read.csv("assembled/idaho_wild_fish_tag_data_2026_02_06.csv")
    
 # Acquires the salmon river flowline shapefile
     salmon <- st_read(dsn = "spatial", layer = "Salmon_streams")
