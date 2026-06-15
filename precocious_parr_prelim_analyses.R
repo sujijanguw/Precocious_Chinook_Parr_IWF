@@ -19,8 +19,8 @@
 # either express or implied. See the License for the specific language governing
 # permissions and limitations under the License.
 
-# This script provides preliminary analyses of dynamics of Chinook salmon
-# precocious parr across 16 streams in the Salmon River headwaters
+# This script assembles data to analyse Salmon River Spring/Summer Chinook 
+# Salmon precocious parr across 16 streams in the Salmon River headwaters.
 
 
 
