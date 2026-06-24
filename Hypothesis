@@ -1,0 +1,28 @@
+I think environmental factors can trigger the maturity DNA; genetic expression based on environmental factors
+Which environmental factors trigger genetic expression?
+
+Waterflow
+- TDA_km2 (total drainage area) measures volume
+- Slope measures speed
+  - A high slope = the river is dropping rapidly in elevation, creating fast, turbulent, highly oxygenated water.
+- H1: More precocious parr are found in faster waterflow
+  - slope  = 205.21611 … positive number; relationship goes up together; as the stream gets steeper (faster flow) increases the density of precocious parr
+  - p-value  < 2e^-16 … very small (below 0.05); significant
+  - R-squared = 0.04875 …?
+  - Want to know if they trigger faster or slower compared to the other variables (if we have more than one environmental factor)
+
+Embankment structure
+- If the riverbed is more U-shaped, it will create more room for them to swim around (could be hard since it also means that it has to invest more energy in the food source, but also might be helpful as it provides more land for the food source as well?)
+- H2: More precocious parr are found in less V-shaped riverbed.
+  - slope  = -3.3767 … negative number; as the stream gets shallower (V-shaped), the density of precocious parr increases
+  - p-value  < 0.0128 … small (below 0.05); significant (but not as H1)
+  - R-squared = 0.001462 …?
+  - I guess because more preco parr are found in faster water, V-shaped riverbed will have more preco parr
+Evergreen forest (NLCD_42) vs. Shrub/scrub (NLCD_52) or barren land (NLCD_31)
+- I think more evergreen forest will give less precocious parr since it's a stable environment? 
+- H3: Higher proportions of Evergreen Forest should result in lower precocious parr density.
+  - Slope = -1.43892 … negative number; as the amount of evergreen forest goes up, the density of wild precocious parr goes down.
+  - p-value  < 2e-16 … very small (below 0.05); significant
+  - R-squared = 0.003493 …?
+- **Chlorophyll (outside dataset)
+- Sediments and large woody debris
