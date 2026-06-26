@@ -1,4 +1,4 @@
-# Sort the data to be wild only + make a master file ("model_df") (og: only for H1 -> updated to accomodate H1~5)
+# Sort the data to be wild only + make a master file ("model_df") (og: only for H1 -> updated to accommodate H1~5)
 #--------------------------------------------------------------------------
 library(here)    # directory setting
 library(dplyr)   # data manipulation (%>%, filter(), left_join(), mutate())
