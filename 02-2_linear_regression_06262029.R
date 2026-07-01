@@ -4,9 +4,9 @@ library(here)    # directory setting
 library(dplyr)   # data manipulation (%>%, filter(), left_join(), mutate())
 library(ggplot2) # plotting
 
-density_data    <- read.csv(here("assembled", "parr_density_ha.csv"))
-catchment_data  <- read.csv(here("explanatory", "site_watershed_architecture.csv"))
-landcover_data  <- read.csv(here("explanatory", "sample_lulc_proportions.csv"))
+density_data    <- read.csv(here("Desktop", "Precocious_Chinook_Parr_IWF", "assembled", "parr_density_ha.csv"))
+catchment_data  <- read.csv(here("Desktop", "Precocious_Chinook_Parr_IWF", "explanatory", "site_watershed_architecture.csv"))
+landcover_data  <- read.csv(here("Desktop", "Precocious_Chinook_Parr_IWF","explanatory", "sample_lulc_proportions.csv"))
 
 model_df <- density_data %>%                                    # model_df = master file; "df" = data frame (rows and columns)
   left_join(catchment_data, by = "Ptagis_ID") %>%               # join on site-only (not thinking the changes of the catchment)
@@ -17,6 +17,106 @@ model_df <- model_df %>%
     sediment_risk = NLCD_81 + NLCD_82 + NLCD_21 + NLCD_22 + NLCD_23 + NLCD_24,
     lwd_proxy     = NLCD_41 + NLCD_42 + NLCD_43
   )
+
+# Getting the site location of Ptagis_id (using PTAGIS API)
+#--------------------------------------------------------------------------
+library(httr)
+
+mmr <- httr::GET("https://api.ptagis.org/sites/mrr")
+str(mmr$content)
+
+mmr_content <- httr::content(mmr, as = "text")
+str(mmr_content)
+
+mmr_JSON <- jsonlite::fromJSON(mmr_content)
+
+mmr_site <- data.frame(siteCode = sort(unique(model_df$Ptagis_ID))) # All of the Ptagis_id I have on the master data (model_df)
+mmr_site <- left_join(mmr_site, mmr_JSON, by = "siteCode")          # Ptagis_id info!
+
+
+
+
+
+# Adding a column on master data (model_df) about the stream position (using Strahler Stream Order)
+#--------------------------------------------------------------------------
+library(nhdplusTools)
+library(sf)
+library(dplyr)
+
+mmr_site$latitude <- as.numeric(mmr_site$latitude)
+mmr_site$longitude <- as.numeric(mmr_site$longitude)
+
+site_info <- function(lat, lon) {
+  pt <- sf::st_sfc(sf::st_point(c(lon, lat)), crs = 4269)
+  comid <- tryCatch(discover_nhdplus_id(pt), error = function(e) NA)
+  if (is.na(comid)) return(data.frame(COMID = NA_integer_, stream_order = NA_integer_))
+  fl <- tryCatch(get_nhdplus(comid = comid), error = function(e) NULL)
+  order <- if (is.null(fl)) NA_integer_ else fl$streamorde[1]
+  data.frame(COMID = comid, stream_order = order)   # <-- returns BOTH now
+}
+
+site_results <- do.call(rbind, mapply(site_info,
+                                      mmr_site$latitude,
+                                      mmr_site$longitude,
+                                      SIMPLIFY = FALSE))
+mmr_site <- cbind(mmr_site, site_results)
+
+my_comids <- mmr_site$COMID
+
+
+
+# Plotting the MMR site longitude + latitude to create a map (for my sake)
+#--------------------------------------------------------------------------
+library(leaflet)
+library(htmlwidgets)
+
+mmr_site <- mmr_site %>%
+  mutate(
+    popups = paste0(
+      "<strong> Site Code: </strong><br>", siteCode,
+      "</br><strong> Stream Name: </strong><br>",name,
+      "</br><strong> Stream Order: </strong><br>", stream_order
+    )
+  )
+
+mmr_leaflet <- leaflet() %>%
+  addTiles() %>%    # adds the default OpenStreetMap background
+  addMarkers(lng = mmr_site$longitude, lat = mmr_site$latitude, popup = mmr_site$popups)
+
+saveWidget(mmr_leaflet, file = here("Desktop", "Precocious_Chinook_Parr_IWF", "mmr_site.html"))      # Ptagis_id map!
+
+
+
+
+# Unzipping + analyzing Morgan Bond's file
+#--------------------------------------------------------------------------
+library(fst)
+
+files <- list.files("Desktop/Precocious_Chinook_Parr_IWF/nwm_3_0_WR_17/", pattern = "\\.fst$", full.names = TRUE)
+files 
+length(files)
+
+# how many sites were monitored?
+library(dplyr)
+flow_mine %>% distinct(COMID)                           # how many unique COMIDs matched?
+flow_mine %>% count(COMID)                              # rows per site — is each ~365?
+length(intersect(my_comids, unique(flow_mine$COMID)))   # matched site count
+setdiff(my_comids, unique(flow_mine$COMID))             # which of COMIDs did NOT match
+
+# how many dates have data?
+range(flow_mine$date)                                   # what date does this cover?
+
+# how many rows of daily flow data for the MMR sites in 2023
+my_comids <- mmr_site$COMID
+flow_mine <- lapply(files, function(f) {
+  read.fst(f, columns = c("COMID", "date", "Q")) %>%
+    filter(COMID %in% my_comids)
+}) %>%
+  bind_rows()
+
+nrow(flow_mine)
+
+
 
 
 # Screening the distribution + log transformation
@@ -287,3 +387,5 @@ salmon_area %>%
          LatitudeMeasure, LongitudeMeasure)
 
 #Is there a matching data...??
+
+
