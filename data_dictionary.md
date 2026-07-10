@@ -371,29 +371,29 @@ Variable list:
 - event_date (character): The event date/time.
 - event_date_.pst. (character): The event date/time in PST.
 - event_site (character): The site where sampling occurred, using long-form site names.  
-- life_stage (character): Please write a short description of this variable (NA, NA, ...) 
-- brood_year (integer): Please write a short description of this variable (88, 88, ...) 
-- migration_year (integer): Please write a short description of this variable (90, 90, ...) 
-- spawn_year (logical): Please write a short description of this variable (NA, NA, ...) 
-- release_site (character): Please write a short description of this variable (Sulphur Creek, Sulphur Creek, ...) 
-- release_temp (numeric): Please write a short description of this variable (11.5, 14, ...) 
-- release_date (character): Please write a short description of this variable (1989-08-08 10:30:00, 1989-08-09 13:15:00, ...) 
-- release_date_.pst. (character): Please write a short description of this variable (NA, NA, ...) 
-- tagger (character): Please write a short description of this variable (LESLIE KUBIN, LESLIE KUBIN, ...) 
-- organization (character): Please write a short description of this variable (NMFS, NMFS, ...) 
-- capture_method (character): Please write a short description of this variable (BSEINE, BSEINE, ...) 
-- mark_method (character): Please write a short description of this variable (AUTO, AUTO, ...) 
-- mark_temp (numeric): Please write a short description of this variable (10.5, 11.5, ...) 
-- hold_temp (numeric): Please write a short description of this variable (NA, NA, ...) 
-- file_title (character): Please write a short description of this variable (SA89220.SU1, SA89220.SU2, ...) 
+- life_stage (character): The developmental stage of the fish at the event
+- brood_year (integer): The year the adult parents spawned and fertilized the eggs.
+- migration_year (integer): The expected year for the fish to migrate to the ocean.
+- spawn_year (logical): 
+- release_site (character): The site where the fish as released, using long-form site names.  
+- release_temp (numeric): Water temperature (°C) recorded at the time of release.
+- release_date (character): The date and time the fish was released.
+- release_date_.pst. (character): The release date in PST.
+- tagger (character): Name of the individual who tagged the fish, formats varied.
+- organization (character): The organization conducting the tagging.
+- capture_method (character): Method used to capture the fish.
+- mark_method (character): Method used to apply the tag. (AUTO = automated tagging, HAND = hand-tagging)
+- mark_temp (numeric): Water temperature (°C) recorded at the time of marking/tagging.
+- hold_temp (numeric): Water temperature (°C) at which fish were held prior to release.
+- file_title (character): Source data file identifier for the tagging record.
 - release_river_km (character): Please write a short description of this variable (522.303.319.151.5, 522.303.319.151.5, ...) 
-- species (integer): Please write a short description of this variable (1, 1, ...) 
-- hatchery_site (logical): Please write a short description of this variable (NA, NA, ...) 
-- run (integer): Please write a short description of this variable (1, 1, ...) 
-- stock (logical): Please write a short description of this variable (NA, NA, ...) 
-- rearing_type (character): Please write a short description of this variable (W, W, ...) 
-- raceway.transect (logical): Please write a short description of this variable (NA, NA, ...) 
-- close_date (character): Please write a short description of this variable (1989-08-08 10:13:00, 1989-08-08 11:26:00, ...)
+- species (integer): Species code from the SRR system.
+- hatchery_site (logical): Whether the fish originated from a hatchery site.
+- run (integer): Run-timing code from the SRR system 
+- stock (logical): Genetic/broodstock origin. 
+- rearing_type (character): Rearing origin from the SRR code (W = wild)
+- raceway.transect (logical): Raceway (hatchery holding channel) or transect (standardized survey line) identifier tracking specimen origin.
+- close_date (character): The date and time the tagging session/event was closed.
 
 Data type(s): character, integer, logical, numeric
 
