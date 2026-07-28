@@ -703,13 +703,12 @@ Associated File Types: cpg, dbf, prj, qmd, shx
 - Tb_ash_filwt (numeric): The filter weight after ashing (combustion), in grams.
 - Turb_note (character): Notes on the turbidity/filtration measurement.
 - Po4_p (numeric): The phosphate concentration, measured as phosphorus (PO4-P).
-- Sio4_si (numeric): The silicate concentration, measured as silicon (SiO4-Si).
+- Sio4_si (numeric): The silica concentration, measured as silicon (SiO4-Si).
 - No3_n (numeric): The nitrate concentration, measured as nitrogen (NO3-N).
 - No2_n (numeric): The nitrite concentration, measured as nitrogen (NO2-N).
 - Nh4_n (numeric): The ammonium concentration, measured as nitrogen (NH4-N).
-- Nut_note (character): Notes on the nutrient measurement.
-- Tp (numeric): The total phosphorus concentration.
-- Tn (numeric): The total nitrogen concentration.
+- Tp (numeric): The total phosphorus concentration (Total P).
+- Tn (numeric): The total nitrogen concentration (Total N).
 - Tntp_note (character): Notes on the total nitrogen / total phosphorus measurement.
 - Nut_seqno (integer): The sequence number for the nutrient sample.
 - Nut_df (numeric): The dilution factor applied to the nutrient sample.
@@ -728,14 +727,14 @@ Associated File Types: cpg, dbf, prj, qmd, shx
 - Fld_note (character): Field notes recorded at the time of collection.
 - Entered_by (character): The person who entered the record.
 - Entered_on (character): The date the record was entered.
-- Po4_p (numeric): The phosphate concentration, measured as phosphorus (PO4-P).
-- Sio4_si (numeric): The silica concentration, measured as silicon (SiO4-Si).
-- No3_n (numeric): The nitrate concentration, measured as nitrogen (NO3-N).
-- No2_n (numeric): The nitrite concentration, measured as nitrogen (NO2-N).
-- Nh4_n (numeric): The ammonium concentration, measured as nitrogen (NH4-N).
-- Tp (numeric): The total phosphorus concentration (Total P).
-- Tn (numeric): The total nitrogen concentration (Total N).
-- - Record_last_edited_by_user (character): The user who last edited the record.
+- Po4_p_um (numeric): The phosphate concentration in micromoles (PO4-P, µM).
+- Sio4_si_um (numeric): The silicate concentration in micromoles (SiO4-Si, µM).
+- No3_n_um (numeric): The nitrate concentration in micromoles (NO3-N, µM).
+- No2_n_um (numeric): The nitrite concentration in micromoles (NO2-N, µM).
+- Nh4_n_um (numeric): The ammonium concentration in micromoles (NH4-N, µM).
+- Tp_um (numeric): The total phosphorus concentration in micromoles (µM).
+- Tn_um (numeric): The total nitrogen concentration in micromoles (µM).
+- Record_last_edited_by_user (character): The user who last edited the record.
 - Record_last_edited_on_date (character): The date the record was last edited.
 
 ---
