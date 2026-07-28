@@ -672,6 +672,77 @@ Associated File Types: cpg, dbf, prj, qmd, shx
 
 
 
+
+
+
+
+---
+(STILL NEED TO RUN THE SOFTWARE!!)
+
+#### WATER.csv
+- Strm_code (character): The stream code identifying the sampling stream. Codes:
+  MAR = Marsh, BEN = Bench Creek, BEV = Bever Creek, BVA = Bear Valley,
+  CAM = Camas, CAP = Cape Horn, CHA = Chamberlain, CHO = Cape Horn,
+  CUR = Curtis, ELK = Elk Creek, ETR = Elk Creek Tributary to Valley,
+  GER = Germania, IRO = Iron Creek, KEN = Kennally Creek, LAK = Lake Creek,
+  LBG = Lower Big, LOL = Lola Creek, LOO = Loon, MEA = Meadow,
+  RLC = Redfish Lake Creek, RUS = Rush, SEC = Secesh, SFS = South Fork,
+  SLC = Stanley Lake Creek, SUL = Sulphur, SUM = Summit Creek, TRA = Trap Creek,
+  UBG = Upper Big Creek, UBS = Upper Big (a different site), VAL = Valley Creek,
+  WFC = West Fork Chamberlain. [VAC, VAM unresolved]
+- Reach (integer): The reach number within the stream.
+- Reason (character): The reason/campaign the sample was collected under (e.g. "Sept Blitz").
+- Date_coll (character): The date the sample was collected.
+- Site (integer): The site number.
+- Nut_bott (integer): The bottle ID for the nutrient sample.
+- Tntp_bott (integer): The bottle ID for the total nitrogen / total phosphorus sample.
+- Tb_fil (character): The filter ID used for the turbidity/suspended-solids measurement.
+- Tb_vol_fil (numeric): The volume of water filtered.
+- Tb_ini_filwt (numeric): The initial (pre-filtration) filter weight in grams.
+- Tb_dry_filwt (numeric): The filter weight after drying, in grams.
+- Tb_ash_filwt (numeric): The filter weight after ashing (combustion), in grams.
+- Turb_note (character): Notes on the turbidity/filtration measurement.
+- Po4_p (numeric): The phosphate concentration, measured as phosphorus (PO4-P).
+- Sio4_si (numeric): The silicate concentration, measured as silicon (SiO4-Si).
+- No3_n (numeric): The nitrate concentration, measured as nitrogen (NO3-N).
+- No2_n (numeric): The nitrite concentration, measured as nitrogen (NO2-N).
+- Nh4_n (numeric): The ammonium concentration, measured as nitrogen (NH4-N).
+- Nut_note (character): Notes on the nutrient measurement.
+- Tp (numeric): The total phosphorus concentration.
+- Tn (numeric): The total nitrogen concentration.
+- Tntp_note (character): Notes on the total nitrogen / total phosphorus measurement.
+- Nut_seqno (integer): The sequence number for the nutrient sample.
+- Nut_df (numeric): The dilution factor applied to the nutrient sample.
+- Nut_uwfile (character): The source UW (University of Washington) lab file for the nutrient data.
+- Tntp_seqno (integer): The sequence number for the TN/TP sample.
+- Tntp_df (numeric): The dilution factor applied to the TN/TP sample.
+- Tntp_uwfile (character): The source UW lab file for the TN/TP data.
+- Doc (numeric): The dissolved organic carbon concentration.
+- Doc_bott (integer): The bottle ID for the dissolved organic carbon sample.
+- Doc_a (numeric): The average dissolved organic carbon value across replicate measurements.
+- Doc_sd (numeric): The standard deviation of the replicate DOC measurements.
+- Doc_cv (numeric): The coefficient of variation of the replicate DOC measurements.
+- Doc_mol (numeric): The dissolved organic carbon concentration in molar units.
+- Doc_note (character): Notes on the dissolved organic carbon measurement.
+- Doc_uwfile (character): The source UW lab file for the DOC data.
+- Fld_note (character): Field notes recorded at the time of collection.
+- Entered_by (character): The person who entered the record.
+- Entered_on (character): The date the record was entered.
+- Po4_p (numeric): The phosphate concentration, measured as phosphorus (PO4-P).
+- Sio4_si (numeric): The silica concentration, measured as silicon (SiO4-Si).
+- No3_n (numeric): The nitrate concentration, measured as nitrogen (NO3-N).
+- No2_n (numeric): The nitrite concentration, measured as nitrogen (NO2-N).
+- Nh4_n (numeric): The ammonium concentration, measured as nitrogen (NH4-N).
+- Tp (numeric): The total phosphorus concentration (Total P).
+- Tn (numeric): The total nitrogen concentration (Total N).
+- - Record_last_edited_by_user (character): The user who last edited the record.
+- Record_last_edited_on_date (character): The date the record was last edited.
+
+---
+
+
+
+
 \
 
 \
