@@ -1,0 +1,389 @@
+Sample_ID,Sample Site,Code,Year,Area_m2,Method
+BL-1992,Big Creek (lower),BL,1992,NA,Shock
+BL-1993,Big Creek (lower),BL,1993,NA,Shock
+BL-2001,Big Creek (lower),BL,2001,NA,Shock
+BL-2002,Big Creek (lower),BL,2002,26412,Shock
+BL-2003,Big Creek (lower),BL,2003,21200,Shock
+BL-2004,Big Creek (lower),BL,2004,16562,Shock
+BL-2005,Big Creek (lower),BL,2005,35301,Shock
+BL-2006,Big Creek (lower),BL,2006,56854,Shock
+BL-2007,Big Creek (lower),BL,2007,29164,Shock
+BL-2008,Big Creek (lower),BL,2008,42776,Shock
+BL-2009,Big Creek (lower),BL,2009,47617,Shock
+BL-2010,Big Creek (lower),BL,2010,39058,Shock
+BL-2011,Big Creek (lower),BL,2011,33465,Shock
+BL-2012,Big Creek (lower),BL,2012,26224,Shock
+BL-2013,Big Creek (lower),BL,2013,29210,Shock
+BL-2014,Big Creek (lower),BL,2014,40157,Shock
+BL-2015,Big Creek (lower),BL,2015,36894,Shock
+BL-2016,Big Creek (lower),BL,2016,46873,Shock
+BL-2017,Big Creek (lower),BL,2017,43666,Shock
+BL-2018,Big Creek (lower),BL,2018,17485,Shock
+BL-2019,Big Creek (lower),BL,2019,17741,Shock
+BU-1992,Big Creek (upper),BU,1992,NA,Shock
+BU-1993,Big Creek (upper),BU,1993,NA,Shock
+BU-1994,Big Creek (upper),BU,1994,NA,Both
+BU-1998,Big Creek (upper),BU,1998,NA,Shock
+BU-1999,Big Creek (upper),BU,1999,NA,Shock
+BU-2002,Big Creek (upper),BU,2002,30238,Both
+BU-2003,Big Creek (upper),BU,2003,35550,Shock
+BU-2004,Big Creek (upper),BU,2004,24864,Both
+BU-2005,Big Creek (upper),BU,2005,49098,Shock
+BU-2006,Big Creek (upper),BU,2006,37461,Shock
+BU-2007,Big Creek (upper),BU,2007,32862,Shock
+BU-2008,Big Creek (upper),BU,2008,40340,Shock
+BU-2009,Big Creek (upper),BU,2009,37670,Shock
+BU-2010,Big Creek (upper),BU,2010,35278,Shock
+BU-2011,Big Creek (upper),BU,2011,44144,Shock
+BU-2012,Big Creek (upper),BU,2012,32154,Shock
+BU-2013,Big Creek (upper),BU,2013,37801,Shock
+BU-2014,Big Creek (upper),BU,2014,31916,Shock
+BU-2015,Big Creek (upper),BU,2015,31820,Shock
+BU-2016,Big Creek (upper),BU,2016,23968,Shock
+BU-2017,Big Creek (upper),BU,2017,31224,Both
+BU-2018,Big Creek (upper),BU,2018,22118,Shock
+BU-2019,Big Creek (upper),BU,2019,28520,Shock
+BU-2021,Big Creek (upper),BU,2021,21547,Shock
+BV-1992,Bear Valley Creek,BV,1992,NA,Shock
+BV-1993,Bear Valley Creek,BV,1993,NA,Shock
+BV-1994,Bear Valley Creek,BV,1994,NA,Both
+BV-1997,Bear Valley Creek,BV,1997,NA,Shock
+BV-1998,Bear Valley Creek,BV,1998,NA,Shock
+BV-1999,Bear Valley Creek,BV,1999,NA,Shock
+BV-2000,Bear Valley Creek,BV,2000,NA,Shock
+BV-2001,Bear Valley Creek,BV,2001,51991,Shock
+BV-2002,Bear Valley Creek,BV,2002,26246,Both
+BV-2003,Bear Valley Creek,BV,2003,2070,Seine
+BV-2004,Bear Valley Creek,BV,2004,17140,Both
+BV-2005,Bear Valley Creek,BV,2005,37060,Shock
+BV-2006,Bear Valley Creek,BV,2006,30986,Shock
+BV-2007,Bear Valley Creek,BV,2007,43918,Shock
+BV-2008,Bear Valley Creek,BV,2008,17200,Shock
+BV-2009,Bear Valley Creek,BV,2009,21835,Shock
+BV-2010,Bear Valley Creek,BV,2010,34816,Shock
+BV-2011,Bear Valley Creek,BV,2011,17857,Shock
+BV-2012,Bear Valley Creek,BV,2012,24430,Shock
+BV-2013,Bear Valley Creek,BV,2013,25285,Shock
+BV-2014,Bear Valley Creek,BV,2014,29408,Shock
+BV-2015,Bear Valley Creek,BV,2015,39320,Shock
+BV-2016,Bear Valley Creek,BV,2016,44204,Shock
+BV-2017,Bear Valley Creek,BV,2017,32924,Shock
+BV-2018,Bear Valley Creek,BV,2018,24759,Shock
+BV-2019,Bear Valley Creek,BV,2019,34147,Shock
+BV-2021,Bear Valley Creek,BV,2021,35661,Shock
+BV-2022,Bear Valley Creek,BV,2022,29231,Both
+BV-2023,Bear Valley Creek,BV,2023,15903,Both
+CA-1992,Camas Creek,CA,1992,NA,Shock
+CA-1993,Camas Creek,CA,1993,NA,Shock
+CA-1994,Camas Creek,CA,1994,NA,Both
+CA-1999,Camas Creek,CA,1999,NA,Shock
+CA-2002,Camas Creek,CA,2002,21357,Shock
+CA-2003,Camas Creek,CA,2003,18223,Shock
+CA-2004,Camas Creek,CA,2004,34129,Shock
+CA-2005,Camas Creek,CA,2005,21368,Shock
+CA-2006,Camas Creek,CA,2006,12898,Shock
+CA-2007,Camas Creek,CA,2007,22602,Shock
+CA-2008,Camas Creek,CA,2008,26288,Shock
+CA-2009,Camas Creek,CA,2009,16698,Shock
+CA-2010,Camas Creek,CA,2010,14813,Shock
+CA-2012,Camas Creek,CA,2012,7115,Shock
+CA-2013,Camas Creek,CA,2013,12006,Shock
+CA-2014,Camas Creek,CA,2014,15600,Shock
+CA-2015,Camas Creek,CA,2015,16333,Shock
+CA-2016,Camas Creek,CA,2016,10744,Shock
+CA-2019,Camas Creek,CA,2019,11684,Shock
+CH-1992,Cape Horn Creek,CH,1992,NA,Shock
+CH-1994,Cape Horn Creek,CH,1994,NA,Both
+CH-1998,Cape Horn Creek,CH,1998,NA,Shock
+CH-1999,Cape Horn Creek,CH,1999,NA,Shock
+CH-2002,Cape Horn Creek,CH,2002,12184,Both
+CH-2003,Cape Horn Creek,CH,2003,21075,Shock
+CH-2004,Cape Horn Creek,CH,2004,30640,Shock
+CH-2005,Cape Horn Creek,CH,2005,12258,Shock
+CH-2006,Cape Horn Creek,CH,2006,16856,Shock
+CH-2007,Cape Horn Creek,CH,2007,15825,Shock
+CH-2009,Cape Horn Creek,CH,2009,30241,Shock
+CH-2010,Cape Horn Creek,CH,2010,7991,Shock
+CH-2013,Cape Horn Creek,CH,2013,33996,Shock
+CH-2014,Cape Horn Creek,CH,2014,15393,Shock
+CH-2015,Cape Horn Creek,CH,2015,14696,Shock
+CH-2016,Cape Horn Creek,CH,2016,18572,Shock
+CH-2017,Cape Horn Creek,CH,2017,19195,Shock
+CH-2019,Cape Horn Creek,CH,2019,13364,Shock
+CH-2021,Cape Horn Creek,CH,2021,16746,Shock
+CH-2022,Cape Horn Creek,CH,2022,18235,Shock
+CH-2023,Cape Horn Creek,CH,2023,3225,Shock
+CL-1993,Chamberlain Creek,CL,1993,NA,Shock
+CL-1994,Chamberlain Creek,CL,1994,NA,Shock
+CL-2002,Chamberlain Creek,CL,2002,1350,Shock
+CL-2003,Chamberlain Creek,CL,2003,3594,Shock
+CL-2004,Chamberlain Creek,CL,2004,10068,Shock
+CL-2006,Chamberlain Creek,CL,2006,3219,Shock
+CL-2008,Chamberlain Creek,CL,2008,10849,Shock
+CL-2009,Chamberlain Creek,CL,2009,13731,Shock
+CL-2010,Chamberlain Creek,CL,2010,16265,Shock
+CL-2011,Chamberlain Creek,CL,2011,11714,Shock
+CL-2012,Chamberlain Creek,CL,2012,12186,Shock
+CL-2013,Chamberlain Creek,CL,2013,7292,Shock
+CL-2014,Chamberlain Creek,CL,2014,13488,Shock
+CL-2015,Chamberlain Creek,CL,2015,18493,Shock
+CL-2016,Chamberlain Creek,CL,2016,26414,Shock
+CL-2018,Chamberlain Creek,CL,2018,17225,Shock
+CL-2019,Chamberlain Creek,CL,2019,18394,Shock
+CL-2021,Chamberlain Creek,CL,2021,6806,Shock
+EF-1992,East Fork Salmon River,EF,1992,NA,Shock
+EF-1993,East Fork Salmon River,EF,1993,NA,Shock
+EF-1994,East Fork Salmon River,EF,1994,NA,Shock
+EF-1999,East Fork Salmon River,EF,1999,NA,Shock
+EL-1992,Elk Creek,EL,1992,NA,Shock
+EL-1993,Elk Creek,EL,1993,NA,Shock
+EL-1994,Elk Creek,EL,1994,NA,Both
+EL-1997,Elk Creek,EL,1997,NA,Shock
+EL-1998,Elk Creek,EL,1998,NA,Shock
+EL-1999,Elk Creek,EL,1999,NA,Shock
+EL-2000,Elk Creek,EL,2000,NA,Shock
+EL-2001,Elk Creek,EL,2001,30707,Both
+EL-2002,Elk Creek,EL,2002,15134,Both
+EL-2003,Elk Creek,EL,2003,20459,Both
+EL-2004,Elk Creek,EL,2004,18109,Both
+EL-2005,Elk Creek,EL,2005,14919,Both
+EL-2006,Elk Creek,EL,2006,29779,Both
+EL-2007,Elk Creek,EL,2007,16262,Both
+EL-2008,Elk Creek,EL,2008,7980,Seine
+EL-2009,Elk Creek,EL,2009,28358,Both
+EL-2010,Elk Creek,EL,2010,34116,Both
+EL-2011,Elk Creek,EL,2011,25562,Shock
+EL-2012,Elk Creek,EL,2012,20012,Both
+EL-2013,Elk Creek,EL,2013,20872,Shock
+EL-2014,Elk Creek,EL,2014,22100,Both
+EL-2015,Elk Creek,EL,2015,28154,Both
+EL-2016,Elk Creek,EL,2016,20794,Both
+EL-2017,Elk Creek,EL,2017,28510,Shock
+EL-2018,Elk Creek,EL,2018,15567,Both
+EL-2019,Elk Creek,EL,2019,14888,Both
+EL-2021,Elk Creek,EL,2021,12742,Shock
+EL-2022,Elk Creek,EL,2022,17170,Both
+EL-2023,Elk Creek,EL,2023,14960,Both
+HE-1992,Herd Creek,HE,1992,NA,Shock
+HE-1993,Herd Creek,HE,1993,NA,Shock
+HE-1994,Herd Creek,HE,1994,NA,Shock
+HE-1998,Herd Creek,HE,1998,NA,Shock
+HE-1999,Herd Creek,HE,1999,NA,Shock
+HE-2000,Herd Creek,HE,2000,NA,Shock
+HE-2001,Herd Creek,HE,2001,10452,Shock
+HE-2002,Herd Creek,HE,2002,29704,Shock
+HE-2003,Herd Creek,HE,2003,13844,Shock
+HE-2004,Herd Creek,HE,2004,22297,Shock
+HE-2005,Herd Creek,HE,2005,21721,Shock
+HE-2006,Herd Creek,HE,2006,9193,Shock
+HE-2007,Herd Creek,HE,2007,21418,Shock
+HE-2009,Herd Creek,HE,2009,15927,Shock
+HE-2010,Herd Creek,HE,2010,16612,Shock
+HE-2011,Herd Creek,HE,2011,15401,Shock
+HE-2012,Herd Creek,HE,2012,14314,Shock
+HE-2013,Herd Creek,HE,2013,15660,Shock
+HE-2014,Herd Creek,HE,2014,11345,Shock
+HE-2015,Herd Creek,HE,2015,24180,Shock
+HE-2016,Herd Creek,HE,2016,24816,Shock
+HE-2017,Herd Creek,HE,2017,18194,Shock
+HE-2018,Herd Creek,HE,2018,16471,Shock
+HE-2019,Herd Creek,HE,2019,8531,Shock
+LA-1992,Lake Creek,LA,1992,NA,Shock
+LA-1993,Lake Creek,LA,1993,NA,Shock
+LA-1994,Lake Creek,LA,1994,NA,Shock
+LA-1995,Lake Creek,LA,1995,NA,Shock
+LA-1996,Lake Creek,LA,1996,NA,Shock
+LA-1997,Lake Creek,LA,1997,NA,Shock
+LA-1998,Lake Creek,LA,1998,NA,Shock
+LA-1999,Lake Creek,LA,1999,NA,Shock
+LA-2001,Lake Creek,LA,2001,19679,Shock
+LA-2002,Lake Creek,LA,2002,21099,Shock
+LA-2003,Lake Creek,LA,2003,22160,Shock
+LA-2004,Lake Creek,LA,2004,24041,Shock
+LA-2005,Lake Creek,LA,2005,10766,Shock
+LA-2006,Lake Creek,LA,2006,16793,Shock
+LA-2007,Lake Creek,LA,2007,12988,Shock
+LA-2008,Lake Creek,LA,2008,20841,Shock
+LA-2009,Lake Creek,LA,2009,10235,Shock
+LA-2010,Lake Creek,LA,2010,16563,Shock
+LA-2011,Lake Creek,LA,2011,19529,Shock
+LA-2012,Lake Creek,LA,2012,20132,Shock
+LA-2013,Lake Creek,LA,2013,14762,Shock
+LA-2014,Lake Creek,LA,2014,20093,Shock
+LA-2015,Lake Creek,LA,2015,18759,Shock
+LA-2016,Lake Creek,LA,2016,21015,Shock
+LA-2017,Lake Creek,LA,2017,15422,Shock
+LA-2018,Lake Creek,LA,2018,21229,Shock
+LA-2019,Lake Creek,LA,2019,20254,Shock
+LA-2021,Lake Creek,LA,2021,20481,Shock
+LA-2023,Lake Creek,LA,2023,31846,Shock
+LO-1992,Loon Creek,LO,1992,NA,Shock
+LO-1993,Loon Creek,LO,1993,NA,Shock
+LO-1994,Loon Creek,LO,1994,NA,Shock
+LO-1998,Loon Creek,LO,1998,NA,Shock
+LO-1999,Loon Creek,LO,1999,NA,Shock
+LO-2002,Loon Creek,LO,2002,30385,Shock
+LO-2003,Loon Creek,LO,2003,13693,Shock
+LO-2004,Loon Creek,LO,2004,29939,Shock
+LO-2005,Loon Creek,LO,2005,18392,Shock
+LO-2007,Loon Creek,LO,2007,24647,Shock
+LO-2008,Loon Creek,LO,2008,30009,Shock
+LO-2009,Loon Creek,LO,2009,22198,Shock
+LO-2010,Loon Creek,LO,2010,27961,Shock
+LO-2011,Loon Creek,LO,2011,26338,Shock
+LO-2012,Loon Creek,LO,2012,32471,Shock
+LO-2013,Loon Creek,LO,2013,18139,Shock
+LO-2014,Loon Creek,LO,2014,12902,Shock
+LO-2015,Loon Creek,LO,2015,22225,Shock
+LO-2016,Loon Creek,LO,2016,22301,Shock
+LO-2017,Loon Creek,LO,2017,13322,Shock
+LO-2019,Loon Creek,LO,2019,13271,Shock
+LO-2021,Loon Creek,LO,2021,9368,Shock
+MA-1992,Marsh Creek,MA,1992,NA,Shock
+MA-1993,Marsh Creek,MA,1993,NA,Shock
+MA-1994,Marsh Creek,MA,1994,NA,Both
+MA-1998,Marsh Creek,MA,1998,NA,Shock
+MA-1999,Marsh Creek,MA,1999,NA,Shock
+MA-2001,Marsh Creek,MA,2001,32130,Shock
+MA-2002,Marsh Creek,MA,2002,10875,Both
+MA-2003,Marsh Creek,MA,2003,10614,Both
+MA-2004,Marsh Creek,MA,2004,3010,Seine
+MA-2005,Marsh Creek,MA,2005,26609,Shock
+MA-2007,Marsh Creek,MA,2007,17158,Shock
+MA-2008,Marsh Creek,MA,2008,15694,Shock
+MA-2009,Marsh Creek,MA,2009,28420,Both
+MA-2010,Marsh Creek,MA,2010,36959,Shock
+MA-2011,Marsh Creek,MA,2011,24445,Shock
+MA-2013,Marsh Creek,MA,2013,15772,Shock
+MA-2014,Marsh Creek,MA,2014,16230,Shock
+MA-2015,Marsh Creek,MA,2015,24280,Shock
+MA-2016,Marsh Creek,MA,2016,28732,Shock
+MA-2017,Marsh Creek,MA,2017,25220,Shock
+MA-2019,Marsh Creek,MA,2019,22559,Shock
+MA-2021,Marsh Creek,MA,2021,16995,Shock
+MA-2022,Marsh Creek,MA,2022,25788,Shock
+MA-2023,Marsh Creek,MA,2023,28420,Shock
+MA-2024,Marsh Creek,MA,2024,44712,Shock
+RU-1992,Rush Creek,RU,1992,NA,Shock
+RU-1993,Rush Creek,RU,1993,NA,Shock
+RU-2001,Rush Creek,RU,2001,3600,Shock
+RU-2003,Rush Creek,RU,2003,1600,Shock
+SE-1992,Secesh River,SE,1992,NA,Shock
+SE-1993,Secesh River,SE,1993,NA,Shock
+SE-1994,Secesh River,SE,1994,NA,Shock
+SE-1995,Secesh River,SE,1995,NA,Shock
+SE-1996,Secesh River,SE,1996,NA,Shock
+SE-1997,Secesh River,SE,1997,NA,Shock
+SE-1998,Secesh River,SE,1998,NA,Shock
+SE-1999,Secesh River,SE,1999,NA,Shock
+SE-2000,Secesh River,SE,2000,NA,Shock
+SE-2001,Secesh River,SE,2001,42271,Shock
+SE-2002,Secesh River,SE,2002,25109,Shock
+SE-2003,Secesh River,SE,2003,41211,Shock
+SE-2004,Secesh River,SE,2004,40787,Shock
+SE-2005,Secesh River,SE,2005,30491,Shock
+SE-2006,Secesh River,SE,2006,36422,Shock
+SE-2008,Secesh River,SE,2008,21769,Shock
+SE-2009,Secesh River,SE,2009,36324,Shock
+SE-2010,Secesh River,SE,2010,33803,Shock
+SE-2011,Secesh River,SE,2011,38080,Shock
+SE-2012,Secesh River,SE,2012,29323,Shock
+SE-2013,Secesh River,SE,2013,26777,Shock
+SE-2014,Secesh River,SE,2014,32878,Shock
+SE-2015,Secesh River,SE,2015,34165,Shock
+SE-2016,Secesh River,SE,2016,27312,Shock
+SE-2017,Secesh River,SE,2017,33026,Shock
+SE-2018,Secesh River,SE,2018,29600,Shock
+SE-2019,Secesh River,SE,2019,16662,Shock
+SE-2021,Secesh River,SE,2021,14370,Shock
+SE-2023,Secesh River,SE,2023,15040,Shock
+SF-1992,South Fork Salmon River,SF,1992,NA,Shock
+SF-1993,South Fork Salmon River,SF,1993,NA,Shock
+SF-1994,South Fork Salmon River,SF,1994,NA,Both
+SF-1995,South Fork Salmon River,SF,1995,NA,Shock
+SF-1996,South Fork Salmon River,SF,1996,NA,Shock
+SF-1997,South Fork Salmon River,SF,1997,NA,Shock
+SF-1998,South Fork Salmon River,SF,1998,NA,Shock
+SF-1999,South Fork Salmon River,SF,1999,NA,Shock
+SF-2000,South Fork Salmon River,SF,2000,NA,Shock
+SF-2001,South Fork Salmon River,SF,2001,32160,Shock
+SF-2002,South Fork Salmon River,SF,2002,10140,Shock
+SF-2003,South Fork Salmon River,SF,2003,38337,Shock
+SF-2004,South Fork Salmon River,SF,2004,44047,Both
+SF-2005,South Fork Salmon River,SF,2005,25376,Shock
+SF-2008,South Fork Salmon River,SF,2008,18156,Shock
+SF-2009,South Fork Salmon River,SF,2009,24358,Shock
+SF-2010,South Fork Salmon River,SF,2010,24693,Shock
+SF-2011,South Fork Salmon River,SF,2011,18488,Shock
+SF-2012,South Fork Salmon River,SF,2012,27130,Shock
+SF-2013,South Fork Salmon River,SF,2013,21480,Shock
+SF-2014,South Fork Salmon River,SF,2014,10220,Shock
+SF-2015,South Fork Salmon River,SF,2015,18390,Shock
+SF-2016,South Fork Salmon River,SF,2016,34275,Shock
+SF-2017,South Fork Salmon River,SF,2017,26848,Shock
+SF-2018,South Fork Salmon River,SF,2018,19444,Shock
+SF-2019,South Fork Salmon River,SF,2019,28595,Shock
+SF-2021,South Fork Salmon River,SF,2021,35067,Shock
+SF-2022,South Fork Salmon River,SF,2022,119577,Both
+SF-2023,South Fork Salmon River,SF,2023,39725,Shock
+SF-2024,South Fork Salmon River,SF,2024,38300,Shock
+SU-1992,Sulphur Creek,SU,1992,NA,Shock
+SU-1994,Sulphur Creek,SU,1994,NA,Both
+SU-2002,Sulphur Creek,SU,2002,16998,Both
+SU-2004,Sulphur Creek,SU,2004,4550,Seine
+SU-2005,Sulphur Creek,SU,2005,23708,Both
+SU-2007,Sulphur Creek,SU,2007,34915,Shock
+SU-2008,Sulphur Creek,SU,2008,24403,Shock
+SU-2009,Sulphur Creek,SU,2009,37489,Shock
+SU-2010,Sulphur Creek,SU,2010,29100,Shock
+SU-2011,Sulphur Creek,SU,2011,29369,Shock
+SU-2012,Sulphur Creek,SU,2012,26439,Shock
+SU-2014,Sulphur Creek,SU,2014,16011,Shock
+SU-2015,Sulphur Creek,SU,2015,25268,Shock
+SU-2016,Sulphur Creek,SU,2016,36869,Shock
+SU-2019,Sulphur Creek,SU,2019,15861,Shock
+VA-1992,Valley Creek,VA,1992,NA,Shock
+VA-1993,Valley Creek,VA,1993,NA,Shock
+VA-1994,Valley Creek,VA,1994,NA,Both
+VA-1998,Valley Creek,VA,1998,NA,Both
+VA-1999,Valley Creek,VA,1999,NA,Both
+VA-2000,Valley Creek,VA,2000,NA,Shock
+VA-2001,Valley Creek,VA,2001,42274,Shock
+VA-2002,Valley Creek,VA,2002,50346,Both
+VA-2003,Valley Creek,VA,2003,34989,Both
+VA-2004,Valley Creek,VA,2004,23278,Both
+VA-2005,Valley Creek,VA,2005,66362,Both
+VA-2006,Valley Creek,VA,2006,68864,Both
+VA-2007,Valley Creek,VA,2007,82950,Shock
+VA-2008,Valley Creek,VA,2008,80527,Shock
+VA-2009,Valley Creek,VA,2009,49382,Shock
+VA-2010,Valley Creek,VA,2010,50379,Shock
+VA-2011,Valley Creek,VA,2011,60359,Both
+VA-2012,Valley Creek,VA,2012,56776,Shock
+VA-2013,Valley Creek,VA,2013,34897,Both
+VA-2014,Valley Creek,VA,2014,27159,Both
+VA-2015,Valley Creek,VA,2015,25618,Both
+VA-2016,Valley Creek,VA,2016,37662,Both
+VA-2017,Valley Creek,VA,2017,37850,Shock
+VA-2018,Valley Creek,VA,2018,28337,Shock
+VA-2019,Valley Creek,VA,2019,35262,Both
+VA-2021,Valley Creek,VA,2021,16406,Both
+WC-1992,West Fork Chamberlain Creek,WC,1992,NA,Seine
+WC-1993,West Fork Chamberlain Creek,WC,1993,NA,Seine
+WC-1994,West Fork Chamberlain Creek,WC,1994,NA,Seine
+WC-2001,West Fork Chamberlain Creek,WC,2001,920,Seine
+WC-2002,West Fork Chamberlain Creek,WC,2002,1280,Seine
+WC-2003,West Fork Chamberlain Creek,WC,2003,4500,Seine
+WC-2004,West Fork Chamberlain Creek,WC,2004,3120,Seine
+WC-2005,West Fork Chamberlain Creek,WC,2005,1150,Seine
+WC-2006,West Fork Chamberlain Creek,WC,2006,650,Seine
+WC-2008,West Fork Chamberlain Creek,WC,2008,3430,Seine
+WC-2009,West Fork Chamberlain Creek,WC,2009,1950,Seine
+WC-2010,West Fork Chamberlain Creek,WC,2010,1100,Seine
+WC-2011,West Fork Chamberlain Creek,WC,2011,2650,Seine
+WC-2012,West Fork Chamberlain Creek,WC,2012,3500,Seine
+WC-2013,West Fork Chamberlain Creek,WC,2013,5000,Seine
+WC-2014,West Fork Chamberlain Creek,WC,2014,5700,Seine
+WC-2015,West Fork Chamberlain Creek,WC,2015,5400,Seine
+WC-2016,West Fork Chamberlain Creek,WC,2016,12100,Shock
+WC-2019,West Fork Chamberlain Creek,WC,2019,14554,Shock
